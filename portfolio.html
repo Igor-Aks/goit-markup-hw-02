@@ -5,34 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <!-- Шапка сторінки -->
     <header>
       <nav>
-        <a lang="en" href="./index.html"> <span>Web</span>Studio</a>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <a class="logo" lang="en" href="./index.html"> <span class="web-color">Web</span>Studio</a>
+        <ul class="header-text">
+          <li><a class="header-link" href="./index.html">Студія</a></li>
+          <li><a class="header-link" href="">Портфоліо</a></li>
+          <li><a class="header-link" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="header-text">
         <li>
-          <a lang="en" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a>
+          <a
+            class="header-link address-text"
+            lang="en"
+            href="mailto:info@devstudio.com"
+            target="_blank"
+            >info@devstudio.com</a
+          >
         </li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="header-link address-text" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <section>
       <h2>Наші проекти</h2>
       <ul>
-        <li><button type="button">Усі</button></li>
-        <li><button type="button">Веб-сайти</button></li>
-        <li><button type="button">Додатки</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+        <li><button class="header-link" type="button">Усі</button></li>
+        <li><button class="header-link" type="button">Веб-сайти</button></li>
+        <li><button class="header-link" type="button">Додатки</button></li>
+        <li><button class="header-link" type="button">Дизайн</button></li>
+        <li><button class="header-link" type="button">Маркетинг</button></li>
       </ul>
       <ul>
         <li>
@@ -41,58 +54,59 @@
             alt="люди на екрані ноутбука"
             width="370"
           />
-          <h3>Технокряк</h3>
+          <h3 class="our-projects">Технокряк</h3>
           <p>Веб-сайт</p>
         </li>
         <li>
           <img src="./images/portfolio-basketball_players.jpg" alt="баскетболісти" width="370" />
-          <h3>Постер New Orlean vs Golden Star</h3>
-          <p>Дизайн</p>
+          <h3 class="our-projects">Постер New Orlean vs Golden Star</h3>
+          <p class="our-projects-paragraph-text">Дизайн</p>
         </li>
         <li>
           <img src="./images/portfolio-seafood_logo.jpg" alt="лого Seafood" width="370" />
-          <h3>Ресторан Seafood</h3>
-          <p>Додаток</p>
+          <h3 class="our-projects">Ресторан Seafood</h3>
+          <p class="our-projects-paragraph-text">Додаток</p>
         </li>
         <li>
           <img src="./images/portfolio-headphones.jpg" alt="навушники" width="370" />
-          <h3>Проєкт Prime</h3>
-          <p>Маркетинг</p>
+          <h3 class="our-projects">Проєкт Prime</h3>
+          <p class="our-projects-paragraph-text">Маркетинг</p>
         </li>
         <li>
           <img src="./images/portfolio-boxes.jpg" alt="коробки" width="370" />
-          <h3>Проєкт Boxes</h3>
-          <p>Додаток</p>
+          <h3 class="our-projects">Проєкт Boxes</h3>
+          <p class="our-projects-paragraph-text">Додаток</p>
         </li>
         <li>
           <img src="./images/portfolio-imac.jpg" alt="iMac" width="370" />
-          <h3>Inspiration has no Borders</h3>
-          <p>Веб-сайт</p>
+          <h3 class="our-projects">Inspiration has no Borders</h3>
+          <p class="our-projects-paragraph-text">Веб-сайт</p>
         </li>
         <li>
           <img src="./images/portfolio-magazine.jpg" alt="журнал" width="370" />
-          <h3>Видання Limited Edition</h3>
-          <p>Дизайн</p>
+          <h3 class="our-projects">Видання Limited Edition</h3>
+          <p class="our-projects-paragraph-text">Дизайн</p>
         </li>
         <li>
           <img src="./images/portfolio-label_tag.jpg" alt="тег" width="370" />
-          <h3>Проєкт LAB</h3>
-          <p>Маркетинг</p>
+          <h3 class="our-projects">Проєкт LAB</h3>
+          <p class="our-projects-paragraph-text">Маркетинг</p>
         </li>
         <li>
           <img src="./images/portfolio-laptop.jpg" alt="ноутбук" width="370" />
-          <h3>Growing Business</h3>
-          <p>Додаток</p>
+          <h3 class="our-projects">Growing Business</h3>
+          <p class="our-projects-paragraph-text">Додаток</p>
         </li>
       </ul>
     </section>
     <!-- Футер -->
-    <footer>
-      <a lang="en" href="./index.html"> <span>Web</span>Studio</a>
+    <footer class="footer-background">
+      <a class="logo" lang="en" href="./index.html"> <span class="web-color">Web</span>Studio</a>
       <address>
         <ul>
           <li>
             <a
+              class="header-link map-link-color"
               href="https://goo.gl/maps/p8fzcUA6neYmYtPV7"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -101,9 +115,17 @@
             </a>
           </li>
           <li>
-            <a lang="en" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a>
+            <a
+              class="header-link address-footer"
+              lang="en"
+              href="mailto:info@devstudio.com"
+              target="_blank"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="header-link address-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
