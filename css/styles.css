@@ -144,6 +144,15 @@ button:focus {
   overflow: hidden;
 }
 
+/* заголовки в секції "наші проекти" */
+.our-projects {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
 /* текст в параграфах "наші проекти"*/
 .our-projects-paragraph-text {
   color: rgba(117, 117, 117, 1);
