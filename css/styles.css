@@ -49,16 +49,16 @@ a {
 
 /* текст в хедері */
 .site-nav {
+  color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: left;
-  color: var(--primary-text-color);
 }
 
 /* поточна сторінка */
-.site-nav .nav-link.current {
+.nav-link.current {
   color: var(--accent-color);
 }
 
