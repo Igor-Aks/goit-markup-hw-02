@@ -66,12 +66,18 @@ button:focus {
 }
 
 /* текст в хедері */
-.header-text {
+.site-nav {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: left;
+	color: var(--primary-text-color);
+}
+
+/* поточна сторінка */
+.site-nav .nav-link.current {
+	color: var(--accent-color);
 }
 
 /* колір тексту пошта та телефон в хедері*/
