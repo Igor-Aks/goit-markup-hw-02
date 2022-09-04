@@ -24,33 +24,15 @@ body {
   font-weight: 400;
 }
 
-/* header {
-  background-color: var(--header-background);
-} */
-
 /* прибираємо маркери списку */
 ul {
   list-style: none;
-}
-
-p {
-  color: var(--paragraph-color);
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
-
-/* button {
-  font-family: inherit;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  color: var(--accent-color);
-} */
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -82,12 +64,12 @@ button:focus {
 
 /* колір тексту пошта та телефон в хедері*/
 .address-text-header {
-  color: #757575;
+  color: var(--paragraph-color);
 }
 
 /* текст в герої */
 .hero-text {
-  color: #ffffff;
+  color: var(--primary-white-color);
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
@@ -95,6 +77,7 @@ button:focus {
   text-align: center;
 }
 
+/* кнопка "замовити послугу" */
 .action-button {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -112,11 +95,6 @@ button:focus {
   background-color: #188ce8;
 }
 
-/* .action-button:hover,
-.action-butto:focus {
-  color: var(--accent-color);
-} */
-
 .features,
 .our-projects-section,
 .what-we-do {
@@ -125,6 +103,7 @@ button:focus {
 
 /* заголовки в секції "особливості" */
 .features-heading {
+  color: var(--title-text-color);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
@@ -133,7 +112,8 @@ button:focus {
   text-transform: uppercase;
 }
 /* текст в параграфі "особливості" */
-.features-paragraph-text {
+.features-paragraph {
+  color: var(--paragraph-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -143,6 +123,7 @@ button:focus {
 /* заголовки "чим ми займаємося" та "наша команда" */
 .what-we-do,
 .our-team-title {
+  color: var(--title-text-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
@@ -155,7 +136,8 @@ button:focus {
 }
 
 /* ім'я та прізвища співробітників */
-.worker-name-text {
+.worker-name {
+  color: var(--title-text-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
@@ -164,7 +146,8 @@ button:focus {
 }
 
 /* текст опису посади співробітника */
-.worker-paragraph-text {
+.worker-paragraph {
+  color: var(--paragraph-color);
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -185,9 +168,10 @@ button:focus {
   overflow: hidden;
 }
 
+/* кнопки фильтра */
 .filter-button {
-	color: var(--primary-text-color);
-	background-color: var(--secondary-background);
+  color: var(--primary-text-color);
+  background-color: var(--secondary-background);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -198,22 +182,23 @@ button:focus {
 
 .filter-button:hover,
 .filter-button:focus {
-	color: var(--primary-white-color);
-	background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* заголовки в секції "наші проекти" */
 .our-projects {
+  color: var(--title-text-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-align: left;
+  /* text-align: left; */
 }
 
 /* текст в параграфах "наші проекти"*/
-.our-projects-paragraph-text {
-  color: rgba(117, 117, 117, 1);
+.our-projects-paragraph {
+  color: var(--paragraph-color);
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
@@ -222,12 +207,11 @@ button:focus {
 
 /* колір адреси (посилання на мапу) в футері*/
 .map-link-color {
-  color: rgba(255, 255, 255, 1);
+  color: var(--primary-white-color);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  text-align: left;
   font-style: normal;
 }
 
@@ -238,7 +222,7 @@ button:focus {
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  text-align: left;
+  /* text-align: left; */
   font-style: normal;
 }
 
