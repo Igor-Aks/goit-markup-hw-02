@@ -244,5 +244,5 @@ a {
 
 /* "studio" білим кольором в футері */
 .studio-white {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
